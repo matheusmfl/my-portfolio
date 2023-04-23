@@ -18,7 +18,7 @@ export function AboutMe() {
 
       <motion.img
         className=" mt-52 md:mt-28 lg:mt-0 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full 
-        object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+        object-cover md:rounded-lg md:w-64 md:h-96 "
         src="https://avatars.githubusercontent.com/u/92957086?v=4"
         initial={{
           x: -200,

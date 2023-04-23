@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 export function ExperienceCard() {
   return (
     <article
       className="flex flex-col rounded-lg items-center space-y-7
-     flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40"
+     flex-shrink-0 w-[500px] md:w-[600px] snap-center bg-[#292929] p-10
+      hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
     >
       <motion.img
         initial={{
@@ -22,13 +23,13 @@ export function ExperienceCard() {
         viewport={{ once: true }}
         src="https://yt3.googleusercontent.com/ytc/AGIKgqMyeURlC9A1NyCFMkUGNlZdJD65UrY-PT6drmTYVA=s900-c-k-c0x00ffffff-no-rj"
         alt="Alternative"
-        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
+        className="w-32 h-32 rounded-full object-cover object-center"
       />
 
-      <div className="px-0 md:px-10 ">
-        <h4 className="text-4xl font-light">Desenvolvedor de Softwares</h4>
-        <p className="font-bold text-2xl mt-1">La Aust - inc</p>
-        <div className="flex space-x-2 my-2">
+      <div className="px-0 md:px-8 ">
+        <h4 className="text-xl font-light">Desenvolvedor de Softwares</h4>
+        <p className="font-bold text-sm md:text-2xl md:mt-1">La Aust - inc</p>
+        {/* <div className="flex md:space-x-2 md:my-2">
           <Image
             src={
               'https://yt3.googleusercontent.com/ytc/AGIKgqMyeURlC9A1NyCFMkUGNlZdJD65UrY-PT6drmTYVA=s900-c-k-c0x00ffffff-no-rj'
@@ -39,10 +40,12 @@ export function ExperienceCard() {
             className="rounded-full"
           />
           <p>Tecnologias usadas...</p>
-        </div>
-        <p className="uppercase py-5 text-gray-300">Junho / 2022 - Atual... </p>
+        </div> */}
+        <p className="uppercase py-2 md:py-5 text-gray-300">
+          Junho / 2022 - Atual...{' '}
+        </p>
 
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <ul className="list-disc md:space-y-4 ml-5 text-lg">
           <li>Criação de soluções digitais</li>
           <li>Marketing aplicado ao código</li>
           <li>Criação de LandingPages</li>
