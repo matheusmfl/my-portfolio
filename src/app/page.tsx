@@ -2,6 +2,7 @@
 // import { Inter } from 'next/font/google'
 
 import { AboutMe } from './components/AboutMe'
+import { Experience } from './components/Experience'
 import Header from './components/Header'
 import Hero from './components/Hero'
 
@@ -15,8 +16,12 @@ export default function Home() {
         <Hero />
       </section>
 
-      <section id="about" className="snap-center">
+      <section id="about" className="snap-center h-screen overflow-y-hidden">
         <AboutMe />
+      </section>
+
+      <section className="snap-center">
+        <Experience />
       </section>
     </div>
   )

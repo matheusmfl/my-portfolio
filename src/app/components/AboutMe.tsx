@@ -37,7 +37,7 @@ export function AboutMe() {
           <span className="underline decoration-[#F7AB04]/50">pequeno </span>
           textinho legal!
         </h4>
-        <p className="text-base max-h-56">
+        <p className="text-base max-h-56 line-clamp-6 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
           adipisci dolores neque, odio qui reprehenderit minus odit aspernatur
           harum iure accusamus magnam reiciendis sint itaque aliquam natus
